@@ -13,7 +13,7 @@ header{
 .header__logo{
     position: absolute;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 25%;
     font-weight: normal;
     font-size: 48px;
     line-height: 60px;
@@ -82,8 +82,25 @@ main .main__design{
     border: none;
     color: #FFFFFF;
 }
-
-/*.design__right{
-    margin-top: -257px;
-    padding-left: 560px;
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 359px;
+}
+.info__about{
+    text-align: center;
+    padding-left: 550px;
+}
+.info h1{
+    width: 450px;
+    height: 30px;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+}
+.info p{
+    width: 450px;
+    padding-top: 30px;
+    font-size: 16px;
 }
