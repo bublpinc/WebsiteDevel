@@ -169,3 +169,33 @@ main .main__design{
     width: 399px;
     height: 500px;
 }
+.work{
+    height: 723px;
+    background: #EEEFF1;
+}
+.work-center{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.work-center__text{
+    width: 500px;
+    height: 150px;
+    margin: auto;
+}
+.work-center__text h1{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+.work-center__text p{
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+}
+.work-center__video{
+    padding-top: 10px;
+    margin: auto;
+}
