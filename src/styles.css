@@ -123,9 +123,49 @@ main .main__design{
     width: 40px;
     margin-top: auto;
     margin-left: 10px;
+    color: #FFFFFF;
 }
 .fa-layer-group{
     width: 35px;
     height: 35px;
     font-size: 35px;
+    color: #FFFFFF;
+}
+.skills{
+    display: flex;
+    margin: auto;
+    height: 723px;
+}
+.skills__center{
+    display: flex;
+    margin: auto;
+}
+.center__left{
+    display: block;
+    margin: auto 20px auto 0;
+}
+.center__left h1{
+    width: 350px;
+    height: 30px;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.center__left p{
+    width: 130px;
+    height: 15px;
+    font-size: 16px;
+    color: #727272;
+    padding: 30px 0 10px;
+}
+.line{
+    width: 350px;
+    align: left;
+    size: 2px;
+}
+.center__right{
+    margin: auto;
+}
+.center__right img{
+    width: 399px;
+    height: 500px;
 }
