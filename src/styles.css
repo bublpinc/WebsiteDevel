@@ -84,17 +84,19 @@ main .main__design{
 }
 .info{
     display: flex;
+    margin: auto;
     flex-direction: column;
     height: 359px;
 }
 .info__about{
     text-align: center;
-    padding-left: 550px;
+}
+.info__center{
+    margin: auto;
 }
 .info h1{
     width: 450px;
     height: 30px;
-    padding-top: 150px;
     text-align: center;
     font-size: 32px;
     color: #000000;
@@ -103,4 +105,27 @@ main .main__design{
     width: 450px;
     padding-top: 30px;
     font-size: 16px;
+}
+.numbers{
+    display: flex;
+    height: 250px;
+    background: #34547A;
+}
+.numbers__center{
+    display: flex;
+    margin: auto;
+}
+.numbers__icons{
+    margin: auto 30px;
+    display: flex;
+}
+.numbers__icons p{
+    width: 40px;
+    margin-top: auto;
+    margin-left: 10px;
+}
+.fa-layer-group{
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
 }
