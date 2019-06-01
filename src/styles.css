@@ -199,3 +199,33 @@ main .main__design{
     padding-top: 10px;
     margin: auto;
 }
+.gallery img{
+    width: 25%;
+    height: 379px;
+}
+.line1{
+    display: flex;
+    height: 379px;
+}
+.line2{
+    display: flex;
+}
+.opacity{
+    height: 379px;
+    background: #34547A;
+}
+.icon{
+    margin: auto;
+}
+.fa-eye{
+    margin: -20px 0 auto -225px;
+    font-size: 55px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 10;
+}
+.opacity img{
+    width: 379px;
+    height: 379px;
+    opacity: 0.5;
+}
